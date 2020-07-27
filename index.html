@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19/home</title>
+    <link rel="stylesheet" href="/CS/style.css"/>
+    <style>
+        * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/image/covid logo.jpg" width="100px" height="100px">
+    </header>
+    
+    <nav>
+        <a href="index.html">home</a>
+        <a href="COVID-19.html">about</a>
+        <a href="Cases.html">Cases</a>
+        <a href="contacts.html">contacts</a>
+    </nav>
+    <h1 style="color:gray">COVID-19 PANDEMIC IN GHANA </h1>
+    
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="/image/MAG 13.jpeg" style="width:100%">
+          <div class="text">the virus</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="/image/MAG 8.jpeg" style="width:100%">
+          <div class="text">the pandemic virus</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="image/MAG 7.jpeg" style="width:100%">
+          <div class="text">always remember to wash your hand with soap and water</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="/image/MAG 6.jpeg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+    
+    </div>
+<p style="color: rgb(7, 83, 20); font-family: Verdana, Geneva, Tahoma, sans-serif;" >
+    The coronavirus disease (COVID-19) is an infectious disease caused by a new strain of coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.
+    The symptomatology of these patients, including fever, malaise, dry cough, and dyspnea, was diagnosed as viral pneumonia. Initially, the disease was called Wuhan pneumonia by the press because of the area and pneumonia symptoms.
+   <br> <h2 style="color: rgb(7, 40, 83); font-family: Verdana, Geneva, Tahoma, sans-serif;">How Does Coronavirus Spread?</h2>
+  <p style="color: rgb(7, 83, 20); font-family: Verdana, Geneva, Tahoma, sans-serif;"> By understanding how coronavirus spreads, you can take the right steps so you don't get sick and infect others.
+<br>
+ <li>Person-to-Person Transmission</li>
+Experts believe the virus that causes COVID-19 spreads mainly from person to person. There are several ways this can happen:
+
+<br>
+<br><li>Droplets or aerosols</li> When an infected person coughs, sneezes, or talks, droplets or tiny particles called aerosols carry the virus into the air from their nose or mouth. Anyone who is within 6 feet of that person can breathe it into their lungs.
+<br>
+<br><li>Airborne transmission</li>. Research shows that the virus can live in the air for up to 3 hours. It can get into your lungs if someone who has it breathes out and you breathe that air in.
+<br>
+<br><li>Surface transmission.</li> Another way to catch the new coronavirus is when you touch surfaces that someone who has the virus has coughed or sneezed on. You may touch a countertop or doorknob that's contaminated and then touch your nose, mouth, or eyes. The virus can live on surfaces like plastic and stainless steel for 2 to 3 days. To stop it, clean and disinfect all counters, knobs, and other surfaces you and your family touch several times a day.
+<br>
+<br><li>Fecal-oral.</li> Studies also suggest that virus particles can be found in infected people's poop. But experts aren't sure whether the infection can spread through contact with an infected person's stool. If that person uses the bathroom and doesn't wash their hands, they could infect things and people that they touch.
+<br>
+<br>The virus most often spreads through people who have symptoms. But it is possible to pass it on without showing any signs. Some people who don't know they've been infected can give it to others. This is called asymptomatic spread. You can also pass it on before you notice any signs of infection, called presymptomatic spread.
+  <br><marquee> <h1 style="color: rgb(7, 40, 83); font-family: Verdana, Geneva, Tahoma, sans-serif;">  STAY SAFE. PROTECT YOURSELF COVID-19 IS REAL</h1></marquee></p>
+    <footer> <marquee>&copy; AFRAKOMAH DORIS 26<sup>th</sup> JULY ,2020 </marquee>
+
+    </footer>
+</body>
+</html>

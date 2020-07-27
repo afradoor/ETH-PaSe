@@ -1,0 +1,14 @@
+body {
+    background-color: lightskyblue;
+    font-size: 25px; 
+}
+header {
+    height: 108px;
+    text-align: center;
+    }
+    nav {
+        font-size: 50px;
+        text-align: center;
+        background-color: lightskyblue;
+        height: 40px;
+    }
